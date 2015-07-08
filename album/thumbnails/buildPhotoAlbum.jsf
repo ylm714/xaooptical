@@ -1,0 +1,44 @@
+App.progressCountTotal = 5;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///E|/xaoweb/album/m31_jpg.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'm31_jpg.jpg';
+if (!Files.exists('file:///E|/xaoweb/album/images/m31_jpg_jpg.jpg') || confirm('file:///E|/xaoweb/album/images/m31_jpg_jpg.jpg 已经存在。点击确定替换该文件。')) 
+fw.exportDocumentAs(doc, 'file:///E|/xaoweb/album/images/m31_jpg_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/xaoweb/album/thumbnails/m31_jpg_jpg.jpg') || confirm('file:///E|/xaoweb/album/thumbnails/m31_jpg_jpg.jpg 已经存在。点击确定替换该文件。')) 
+fw.exportDocumentAs(doc, 'file:///E|/xaoweb/album/thumbnails/m31_jpg_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/xaoweb/album/m42_jpg.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'm42_jpg.jpg';
+if (!Files.exists('file:///E|/xaoweb/album/images/m42_jpg_jpg.jpg') || confirm('file:///E|/xaoweb/album/images/m42_jpg_jpg.jpg 已经存在。点击确定替换该文件。')) 
+fw.exportDocumentAs(doc, 'file:///E|/xaoweb/album/images/m42_jpg_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/xaoweb/album/thumbnails/m42_jpg_jpg.jpg') || confirm('file:///E|/xaoweb/album/thumbnails/m42_jpg_jpg.jpg 已经存在。点击确定替换该文件。')) 
+fw.exportDocumentAs(doc, 'file:///E|/xaoweb/album/thumbnails/m42_jpg_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/xaoweb/album/流星.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = '流星.jpg';
+if (!Files.exists('file:///E|/xaoweb/album/images/流星_jpg.jpg') || confirm('file:///E|/xaoweb/album/images/流星_jpg.jpg 已经存在。点击确定替换该文件。')) 
+fw.exportDocumentAs(doc, 'file:///E|/xaoweb/album/images/流星_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/xaoweb/album/thumbnails/流星_jpg.jpg') || confirm('file:///E|/xaoweb/album/thumbnails/流星_jpg.jpg 已经存在。点击确定替换该文件。')) 
+fw.exportDocumentAs(doc, 'file:///E|/xaoweb/album/thumbnails/流星_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/xaoweb/album/蟹状星云_jpg.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = '蟹状星云_jpg.jpg';
+if (!Files.exists('file:///E|/xaoweb/album/images/蟹状星云_jpg_jpg.jpg') || confirm('file:///E|/xaoweb/album/images/蟹状星云_jpg_jpg.jpg 已经存在。点击确定替换该文件。')) 
+fw.exportDocumentAs(doc, 'file:///E|/xaoweb/album/images/蟹状星云_jpg_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/xaoweb/album/thumbnails/蟹状星云_jpg_jpg.jpg') || confirm('file:///E|/xaoweb/album/thumbnails/蟹状星云_jpg_jpg.jpg 已经存在。点击确定替换该文件。')) 
+fw.exportDocumentAs(doc, 'file:///E|/xaoweb/album/thumbnails/蟹状星云_jpg_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///E|/xaoweb/album/马头星云_jpg.jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = '马头星云_jpg.jpg';
+if (!Files.exists('file:///E|/xaoweb/album/images/马头星云_jpg_jpg.jpg') || confirm('file:///E|/xaoweb/album/images/马头星云_jpg_jpg.jpg 已经存在。点击确定替换该文件。')) 
+fw.exportDocumentAs(doc, 'file:///E|/xaoweb/album/images/马头星云_jpg_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///E|/xaoweb/album/thumbnails/马头星云_jpg_jpg.jpg') || confirm('file:///E|/xaoweb/album/thumbnails/马头星云_jpg_jpg.jpg 已经存在。点击确定替换该文件。')) 
+fw.exportDocumentAs(doc, 'file:///E|/xaoweb/album/thumbnails/马头星云_jpg_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200}));
+fw.closeDocument(doc);
+'done';

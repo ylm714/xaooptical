@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:编号;datatype:INTEGER,name:用户姓名;datatype:LONGCHAR,name:用户密码;datatype:LONGCHAR,name:用户单位;datatype:LONGCHAR,name:用户联系方式;datatype:LONGCHAR,name:用户邮箱;datatype:LONGCHAR" />
+</info>
